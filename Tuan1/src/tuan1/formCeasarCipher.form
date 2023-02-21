@@ -54,36 +54,36 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
-                  <EmptySpace pref="114" max="32767" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jLabelHeader" alignment="0" min="-2" pref="385" max="-2" attributes="0"/>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jLabelPlainText" alignment="0" max="32767" attributes="0"/>
-                              <Component id="jLabelKhoa" max="32767" attributes="0"/>
-                              <Component id="jLabelCipherText" alignment="1" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <Component id="jButtonDecrypt" min="-2" pref="88" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
-                                  <Component id="jButtonDocFile" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="jTextFieldPlainText" pref="365" max="32767" attributes="0"/>
-                                  <Component id="jButtonEncrypt" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
-                                  <Component id="jTextFieldCipherText" alignment="0" max="32767" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
-                                  <Component id="jButtonGhiFile" min="-2" pref="87" max="-2" attributes="0"/>
-                              </Group>
-                              <Component id="jTextFieldKhoa" min="-2" pref="263" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
+                  <EmptySpace pref="111" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jLabelPlainText" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jLabelKhoa" max="32767" attributes="0"/>
+                      <Component id="jLabelCipherText" alignment="1" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="114" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jButtonDecrypt" min="-2" pref="88" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+                          <Component id="jButtonDocFile" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jTextFieldPlainText" pref="365" max="32767" attributes="0"/>
+                          <Component id="jButtonEncrypt" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                          <Component id="jTextFieldCipherText" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
+                          <Component id="jButtonGhiFile" min="-2" pref="87" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jTextFieldKhoa" min="-2" pref="263" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="105" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabelHeader" min="-2" pref="385" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="152" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -231,6 +231,9 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabelCipherText">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="16" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Cipher text:"/>
           </Properties>
           <AccessibilityProperties>
