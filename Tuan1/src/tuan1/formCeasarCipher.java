@@ -22,7 +22,7 @@ public class formCeasarCipher extends javax.swing.JFrame {
      * Creates new form formCeasarCipher
      */
     public formCeasarCipher() {
-        this.setLocationRelativeTo(null);
+        setLocationRelativeTo(null);
         initComponents();
     }
 
